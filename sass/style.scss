@@ -1,0 +1,30 @@
+@import 'fontes.scss';
+@import 'responsividade.scss';
+
+.first-container{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/red-stonkofc-2.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+// .middle{
+//     height: 30vh;
+//     width: 100%;
+//     background-color: #fafafa;
+// }
+
+
+.second-container{
+    height: 80vh;
+    width: 100%;
+    background-image: url('../images/red-right.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
