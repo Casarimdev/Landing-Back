@@ -4,8 +4,9 @@
 
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    
 }
 
 .first-container{
@@ -18,6 +19,7 @@
     background-attachment: fixed;
 
     .first-h1{
+        width: auto;
         text-align: center;
         font-family: FontBold;
     }
@@ -32,12 +34,13 @@
     justify-content: center;
 }
 
-.videoLomb{
-    height: 50vh;
-    width: auto;
-}
+// .videoLomb{
+//     height: 50vh;
+//     width: auto;
+// }
 
 .buttonSpan1{
+    width: auto;
     padding: 15px;
     background-color: #ff0000;
     color: #fafafa;
@@ -76,21 +79,24 @@
 
 
 .buttons{
+    height: auto;
     display: flex;
     flex-wrap: wrap;
 }
 
 .Services-container{
     height: 104vh;
-    width: 100%;
+    width: auto;
     background-image: url('../images/red-right.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    overflow-y: hidden;
 }
 
 .h3-service{
+    width: auto;
     text-align : center;
     color      : #ff0000; 
     overflow: hidden;
@@ -100,6 +106,7 @@
 }
 
 .h3-TU{
+    width: auto;
     text-align : center;
     color      : #ff0000; 
     overflow: hidden;
@@ -149,15 +156,19 @@
     padding: 0.25% 0px 0px !important;
     height: 300px !important;
 }
+
 .advantages{
     height: 78vh;
     width: 100%;
     display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
 }
 
 .img-adv{
     height: auto;
-    width: 50%;
+    width: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -170,12 +181,12 @@
 }
 
 .text-img{
-    margin-right: 10vw;
+    // margin-right: 10vw;
     height: auto;
-    width: 50%;
+    width: auto;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
     justify-items: center;
     justify-content: center;

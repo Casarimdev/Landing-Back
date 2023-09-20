@@ -1,0 +1,65 @@
+
+// RESPONSIVIDADE DO PRIMEIRO BLOCO E SEGUNDO - ALTURA E LARGURA
+@media (max-width: 882px) {
+    /* Esse bloco se aplica a viewports <= 882px */
+    .Services-container{
+        height: auto !important;
+    }
+    .advantages{
+        height: auto !important;
+    }
+
+    .first-container{
+        height: auto !important;
+        padding-bottom: 20vh;
+    }
+}
+
+@media (max-width: 700px){
+    .textoSale{
+        width: 50vw !important;
+    }
+}
+
+@media (max-width: 452px){
+    .textoSale{
+        width: 60vw !important;
+    }
+}
+
+
+// RESPONSIVIDADE DO PRIMEIRO BLOCO- VIDEO E BUTTONS
+@media (max-width: 660px){
+    .PlaceVideo{
+        flex-wrap: wrap;
+    }
+
+    .buttons{
+        width: 40vw;
+    }
+
+    .buttonSpan1{
+        width: 50vw !important;
+    }
+
+    .buttonSpan2{
+        width: 50vw !important;
+    }
+}
+
+// IMAGEM SEGUNDO BLOCO
+@media (max-width: 616px){
+    .img-sale{
+        height: 40vh !important;
+        width: auto !important;
+        max-width: 100vw !important;
+    }
+}
+
+@media (max-width: 433px){
+    .img-sale{
+        height: 30vh !important;
+        width: auto !important;
+        max-width: 90vw !important;
+    }
+}
