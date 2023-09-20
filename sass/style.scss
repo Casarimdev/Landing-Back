@@ -1,5 +1,12 @@
 @import 'fontes.scss';
 @import 'responsividade.scss';
+@import 'services.scss';
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
 
 .first-container{
     height: 100vh;
@@ -9,22 +16,154 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+
+    .first-h1{
+        text-align: center;
+        font-family: FontBold;
+    }
 }
 
-// .middle{
-//     height: 30vh;
-//     width: 100%;
-//     background-color: #fafafa;
-// }
+.PlaceVideo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.videoLomb{
+    height: 50vh;
+    width: auto;
+}
+
+.buttonSpan1{
+    padding: 15px;
+    background-color: #ff0000;
+    color: #fafafa;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 10px;
+    box-shadow: 1px 10px 20px 6px rgba(255,0,0,1);
+    border: #fafafa;
+
+    &:hover{
+        background-color: #fafafa;
+        color: #ff0000;
+        text-decoration: underline;
+        box-shadow: none;
+        border: 1px solid #ff0000;
+    }
+}
+
+.buttonSpan2{
+    padding: 15px;
+    background-color: #ff0000;
+    color: #fafafa;
+    display: inline-block;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 10px;
+    box-shadow: 1px 10px 20px 6px rgba(255,0,0,1);
+    border: #fafafa;
+
+    &:hover{
+        background-color: #fafafa;
+        color: #ff0000;
+        text-decoration: underline;
+        box-shadow: none;
+        border: 1px solid #ff0000;
+    }
+}
 
 
-.second-container{
-    height: 80vh;
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Services-container{
+    height: 100vh;
     width: 100%;
     background-image: url('../images/red-right.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
 
+.h3-service{
+    text-align : center;
+    color      : #ff0000; 
+    overflow: hidden;
+    font-family: FontBold;
+    font-weight: bold; font-size  : 3rem;
+    
+}
+
+.h3-TU{
+    text-align : center;
+    color      : #ff0000; 
+    overflow: hidden;
+    font-family: FontBold;
+    font-weight: bold; font-size  : 1.5rem;
+    
+}
+
+.btn-TU{
+    background-color: #ff0000;
+    color      : #fafafa; 
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 1px 10px 20px 6px rgba(255,0,0,1);
+    border: #fafafa;
+    overflow: hidden;
+    font-family: FontBold;
+    font-weight: bold; font-size  : 1.3rem;
+
+    &:hover{
+        background-color: #fafafa;
+        color: #ff0000;
+        box-shadow: none;
+        border: 1px solid #ff0000;
+    }
+}
+
+.advantages{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+}
+
+.img-adv{
+    height: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-sale{
+    height: 40vh;
+    width: auto;
+}
+
+.text-img{
+    margin-right: 10vw;
+    height: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.textoSale{
+    width: 30vw;
+    margin-top: 4vh;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
 }
