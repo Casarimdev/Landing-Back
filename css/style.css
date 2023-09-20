@@ -35,7 +35,7 @@
     flex-wrap: wrap;
   }
   .buttons {
-    width: 40vw;
+    width: 50vw;
   }
   .buttonSpan1 {
     width: 50vw !important;
@@ -88,7 +88,6 @@
 }
 
 .buttonSpan1 {
-  width: auto;
   padding: 15px;
   background-color: #ff0000;
   color: #fafafa;
