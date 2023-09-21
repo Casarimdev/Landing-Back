@@ -97,37 +97,37 @@
 
 .buttonSpan1 {
   padding: 15px;
-  background-color: #ff0000;
+  background-color: rgba(255, 0, 0, 0.5725490196);
   color: #fafafa;
   font-family: "Rubik", sans-serif;
   border-radius: 10px;
-  box-shadow: 1px 10px 20px 6px #ff0000;
+  box-shadow: 1px 10px 20px 6px rgba(255, 0, 0, 0.5647058824);
   border: #fafafa;
 }
 .buttonSpan1:hover {
-  background-color: #fafafa;
-  color: #ff0000;
+  background-color: rgba(250, 250, 250, 0.537254902);
+  color: rgba(255, 0, 0, 0.5450980392);
   text-decoration: underline;
   box-shadow: none;
-  border: 1px solid #ff0000;
+  border: 1px solid rgba(255, 0, 0, 0.4705882353);
 }
 
 .buttonSpan2 {
   padding: 15px;
-  background-color: #ff0000;
+  background-color: rgba(255, 0, 0, 0.5725490196);
   color: #fafafa;
   display: inline-block;
   font-family: "Rubik", sans-serif;
   border-radius: 10px;
-  box-shadow: 1px 10px 20px 6px #ff0000;
+  box-shadow: 1px 10px 20px 6px rgba(255, 0, 0, 0.5725490196);
   border: #fafafa;
 }
 .buttonSpan2:hover {
-  background-color: #fafafa;
-  color: #ff0000;
+  background-color: rgba(250, 250, 250, 0.5647058824);
+  color: rgba(255, 0, 0, 0.5725490196);
   text-decoration: underline;
   box-shadow: none;
-  border: 1px solid #ff0000;
+  border: 1px solid rgba(255, 0, 0, 0.5215686275);
 }
 
 .buttons {
