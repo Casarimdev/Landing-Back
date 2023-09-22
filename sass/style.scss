@@ -42,38 +42,38 @@
 .buttonSpan1{
     // width: auto;
     padding: 15px;
-    background-color: #ff000092;
+    background-color: #ff0000;
     color: #fafafa;
     font-family: 'Rubik', sans-serif;
     border-radius: 10px;
-    box-shadow: 1px 10px 20px 6px #ff000090;
+    box-shadow: 1px 10px 20px 6px #ff0000;
     border: #fafafa;
 
     &:hover{
         background-color: #fafafa89;
-        color: #ff00008b;
+        color: #ff0000;
         text-decoration: underline;
         box-shadow: none;
-        border: 1px solid #ff000078;
+        border: 1px solid #ff0000;
     }
 }
 
 .buttonSpan2{
     padding: 15px;
-    background-color: #ff000092;
+    background-color: #ff0000;
     color: #fafafa;
     display: inline-block;
     font-family: 'Rubik', sans-serif;
     border-radius: 10px;
-    box-shadow: 1px 10px 20px 6px #ff000092;
+    box-shadow: 1px 10px 20px 6px #ff0000;
     border: #fafafa;
 
     &:hover{
         background-color: #fafafa90;
-        color: #ff000092;
+        color: #ff0000;
         text-decoration: underline;
         box-shadow: none;
-        border: 1px solid #ff000085;
+        border: 1px solid #ff0000;
     }
 }
 
