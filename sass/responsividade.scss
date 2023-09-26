@@ -71,3 +71,13 @@
         max-width: 90vw !important;
     }
 }
+
+@media (max-width: 500px){
+    .flags{
+        height: 30px !important;
+        width: auto;
+    }
+    #Select{
+        font-size: 14px;
+    }
+}

@@ -25,9 +25,11 @@ sleep(15000).then(() => aSale.href = "https://pay.hotmart.com/D86373027M?off=fn5
 // TEXTS
 
     // Container 1 
+let Select = document.getElementById("Select")
 let oMetodo = document.getElementById("Elmet")
 let Juvenil = document.getElementById("Juvenil")
 let Minutos = document.getElementById("minutes")
+let br1 = document.getElementById("brh1")
 let H1Texto = document.getElementById("H1Text")
 let Clique = document.getElementById("Clic")
 let SaibaMais = document.getElementById("Saiba")
@@ -43,13 +45,66 @@ let TextoVenda2 = document.getElementById("TextVenda2")
 let TextoVenda3 = document.getElementById("TextVenda3")
 let TextoVenda4 = document.getElementById("TextVenda4")
 
+
+
 // SPANINH LANGUAGE
 function translateSpaninsh(){
-    oMetodo.innerHTML = 'El Método'
-    Juvenil.innerHTML = 'Juvenil'
-    Minutos.innerHTML = '4 minutos'
-    H1Texto.innerHTML = 'EL MÉTODO que te devolverá tu espalda Juvenil em 4 minutos.'
+    // Primeiro Container
+    Select.innerHTML = 'elige tu idioma'
+    H1Texto.innerHTML = '<span style="color: #ff0000;">El Método</span> que te devolverá tu espalda <br> <span style="color: #ff0000;">juvenil</span> EN <span style="color: #ff0000;">4 minutos</span>'
+    Clique.innerHTML = 'HACA CLIC AQUI PARA COMPRAR'
+    SaibaMais.innerHTML = '¿ES PARA VOS? APRENDER MEJOR'
+
+    // Segundo Container
+    ParaQuem.innerHTML = '¿PARA QUIÉN ES ESTE CURSO?'
+    ParaTu.innerHTML = '¡ES PARA TI!'
+    Quiero.innerHTML = '¡YO QUIERO!'
+
+    // Textos Container 2
+    TextoVenda1.innerHTML = 'Descubre cómo aliviar el dolor de espalda y recuperar tu calidad de vida.'
+    TextoVenda2.innerHTML = 'Para todo aquel que quiera vivir sin dolores de espalda y disfrutar la vida al máximo.'
+    TextoVenda3.innerHTML = 'Este curso es para ti, independientemente de tu profesión o estilo de vida, si padeces dolor de espalda.'
+    TextoVenda4.innerHTML = 'Sea cual sea tu edad u ocupación, nuestro curso puede ayudarte a superar el dolor lumbar.'
 }
 
 
 // ENGLISH LANGUAGE
+function translateEnglish(){
+    // Primeiro Container
+    Select.innerHTML = 'select your language'
+    H1Texto.innerHTML = '<span style="color: #ff0000;">THE METHOD</span> that will turn your back <br> <span style="color: #ff0000;">YOUTH</span> in <span style="color: #ff0000;">4 MINUTES</span>'
+    Clique.innerHTML = 'CLICK HERE TO BUY'
+    SaibaMais.innerHTML = 'IT IS FOR YOU? LEARN BETTER'
+
+    // Segundo Container
+    ParaQuem.innerHTML = 'WHO IS THIS COURSE FOR?'
+    ParaTu.innerHTML = 'IS FOR YOU!'
+    Quiero.innerHTML = 'I WANT!'
+
+    // Textos Container 2
+    TextoVenda1.innerHTML = 'Discover how to relieve back pain and recover your quality of life.'
+    TextoVenda2.innerHTML = 'For anyone who wants to live without back pain and enjoy life to the fullest.'
+    TextoVenda3.innerHTML = 'This course is for you, regardless of your profession or lifestyle, if you suffer from back pain.'
+    TextoVenda4.innerHTML = 'Whatever your age and occupation, our course can help you overcome lower back pain.'
+}
+
+// PORTUGUÊS LANGUAGE
+
+function translatePortuguese(){
+    // Primeiro Container
+    Select.innerHTML = 'Selecione seu idioma'
+    H1Texto.innerHTML = '<span style="color: #ff0000;">O método</span> que vai te dar de volta suas costas <br> <span style="color: #ff0000;">Novas</span> em <span style="color: #ff0000;">4 MINUTOS</span>'
+    Clique.innerHTML = 'CLIQUE AQUI PARA COMPRAR'
+    SaibaMais.innerHTML = 'É PARA TI? SAIBA MELHOR'
+
+    // Segundo Container
+    ParaQuem.innerHTML = 'A QUEM SE DESTINA ESTE CURSO?'
+    ParaTu.innerHTML = 'É PARA TI!'
+    Quiero.innerHTML = 'EU QUERO!'
+
+    // Textos Container 2
+    TextoVenda1.innerHTML = 'Descubra como aliviar as dores nas costas e recuperar a sua qualidade de vida.'
+    TextoVenda2.innerHTML = 'Para quem quer viver sem dores nas costas e aproveitar a vida ao máximo.'
+    TextoVenda3.innerHTML = 'Este curso é para você, independentemente da sua profissão ou estilo de vida, se sofre de dores nas costas.'
+    TextoVenda4.innerHTML = 'Seja qual for a sua idade e profissão, o nosso curso pode ajudá-lo a superar a dor lombar.'
+}

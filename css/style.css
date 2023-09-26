@@ -66,9 +66,28 @@
     max-width: 90vw !important;
   }
 }
+@media (max-width: 500px) {
+  .flags {
+    height: 30px !important;
+    width: auto;
+  }
+  #Select {
+    font-size: 14px;
+  }
+}
 * {
   margin: 0px;
   padding: 0px;
+}
+
+#Select {
+  font-family: FontBold;
+}
+
+.flags {
+  height: 50px;
+  width: auto;
+  cursor: pointer;
 }
 
 .first-container {
