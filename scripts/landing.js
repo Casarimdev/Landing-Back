@@ -26,16 +26,10 @@ sleep(15000).then(() => aSale.href = "https://pay.hotmart.com/D86373027M?off=fn5
 // VIDEOS
 // VTURB-ESP
 let videoESP = document.getElementById("vid_6503757f909f89000a905de3")
-let thumbESP = document.getElementById("thumb_6503757f909f89000a905de3")
-let backdropESP = document.getElementById("backdrop_6503757f909f89000a905de3")
-videoESP.style.display = 'none'
-// thumbESP.style.display = 'none'
-// backdropESP.style.display = 'none'
-
-
 let videoUS = document.getElementById("video-US")
 let videoPT = document.getElementById("video-PT")
 
+videoESP.style.display = 'block'
 videoPT.style.display = 'none'
 videoUS.style.display = 'none'
 
@@ -69,9 +63,6 @@ function translateSpaninsh(){
     // thumbESP.style.display = 'block'
     // backdropESP.style.display = 'block'
     videoESP.style.display = 'block'
-    videoESP.innerHTML= '<div id= "vid_6503757f909f89000a905de3" style="position:relative;width:900px;padding: 0.25% 0 0;height:auto;"><img id="thumb_6503757f909f89000a905de3" src="https://images.converteai.net/9714ed72-2eda-418b-bb68-df9ab62de4e3/players/6503757f909f89000a905de3/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;" alt="img-adv"> <div id="backdrop_6503757f909f89000a905de3" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"> </div></div> <script type="text/javascript" id="scr_6503757f909f89000a905de3">var s = document.createElement("script"); s.src = "https://scripts.converteai.net/9714ed72-2eda-418b-bb68-df9ab62de4e3/players/6503757f909f89000a905de3/player.js", s.async = !0, document.head.appendChild(s);</script>'
-
-
     videoUS.style.display = 'none'
     videoPT.style.display = 'none'
     // Primeiro Container
