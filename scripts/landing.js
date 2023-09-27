@@ -28,10 +28,9 @@ sleep(15000).then(() => aSale.href = "https://pay.hotmart.com/D86373027M?off=fn5
 let videoESP = document.getElementById("vid_6503757f909f89000a905de3")
 let videoUS = document.getElementById("video-US")
 let videoPT = document.getElementById("video-PT")
-
-videoESP.style.display = 'block'
 videoPT.style.display = 'none'
 videoUS.style.display = 'none'
+videoESP.style.width = '100px'
 
 // TEXTS
 
